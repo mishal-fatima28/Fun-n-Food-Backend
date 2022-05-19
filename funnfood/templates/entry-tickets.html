@@ -1,0 +1,71 @@
+{% extends "basic.html" %}
+{% load static %}
+{% block body %}
+
+    <!-- ===== Main Page Section ===== -->
+    <section class="main" id="pages">
+
+        <!-- Title -->
+        <div class="page-title overlay" style="background: url('{% static 'images/fun n food/slider-bg.jpg' %}'); background-size: cover;">
+            <h2>Entry Tickets</h2>
+        </div>
+        <!-- End of Title -->
+
+    </section>
+    <!-- ===== End of Main Page Section ===== -->
+
+<!-- ===== Start of Blog Section ===== -->
+    <section style="margin-top: 5px;" id="blog">
+        <div class="container">
+
+
+            <!-- Start of Blog Post 1 -->
+            <article style="margin-top: 50px;" class="col-md-12 blog-post">
+                <div class="col-md-9 blog-desc">
+                    <h4><a href="#">OUR TICKETING AND ADMISSION POLICY ARE BASED ON THE FOLLOWING CRITERIA</a></h4>
+                    <p>
+                    <ul>
+                        <li>Height below 33” is admitted free (when accompanied by adult)</li>
+                        <li>Height above 33” to 4’6” is considered as child.</li>
+                        <li>Height above 4’6” is considered as adult.</li>
+                        <li>Children below 10 years old must be accompanied by an adult.</li>
+                        <li>Senior citizen discount is applicable for age of 65 years and above with a valid government ID proof</li>
+                    </ul>
+                    </p>
+                    <p>Note: Rights of Admission Reserved Re-Entry Not Allowed.</p>
+                    <p>Phone Numbers: +91-9990006518, 21, 22, Email: marketing.delhi@funnfood.com</p>
+                </div>
+            </article>
+        </div>
+    </section>
+            <!-- End of Blog Post 1 -->
+
+ <!-- ===== Start of Blog Section ===== -->
+    <section id="blog">
+        <div class="container">
+
+
+            <!-- Start of Blog Post 1 -->
+            <article class="col-md-12 blog-post">
+                 <div class="col-md-3 blog-thumbnail">
+                    <a href="#"><img src="{% static 'images/fun n food/env.jpg' %}" class="img-responsive" alt=""></a>
+                </div>
+                <div class="col-md-9 blog-desc">
+                    <h4><a href="#">Ticket Entry Fee</a></h4>
+                    <p>Looking forward to provide you best fun ambient parties at Fun’n’Food water park Delhi where fun never ends !!</p>
+                    <h5><a href="#">Monday To Sunday</a></h5>
+                    <p><i class="fa fa-clock-o"></i> 10:00 AM - 3:00 PM</p>
+                    <p><i class="fa fa-money"></i> Adult - 1000</p>
+                    <p><i class="fa fa-money"></i> Child (Height 33” to 4’6”) - 600</p>
+                    <h5><a href="#">Public Holidays</a></h5>
+                    <p><i class="fa fa-clock-o"></i> 10:00 AM - 3:00 PM</p>
+                    <p><i class="fa fa-money"></i> Adult - 1000</p>
+                    <p><i class="fa fa-money"></i> Child (Height 33” to 4’6”) - 600</p>
+                    <p>Note: Rights of Admission Reserved Re-Entry Not Allowed. Rates are subject to change without prior notice.</p>
+                    <a style="margin-top: -5px;" href="{% url 'book-online' %}" class="btn">Book Now</a>
+                </div>
+            </article>
+        </div>
+    </section>
+            <!-- End of Blog Post 1 -->
+    {% endblock %}
