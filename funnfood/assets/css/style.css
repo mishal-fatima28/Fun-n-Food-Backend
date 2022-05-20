@@ -1159,10 +1159,10 @@ section#blog .text-center {
 /**************** 5.7 Testimonial Section ****************/
 
 section#testimonials {
-    background: url(../images/img/testimonial-bg.png) no-repeat #3cbeee;
+    background: url(../images/img/testimonial-bg.png) no-repeat #f1625c;
     background-position: top left;
     background-size: contain;
-    color: #f6f8f8;
+    color: #f1625c;
 }
 
 section#testimonials .section-title {
