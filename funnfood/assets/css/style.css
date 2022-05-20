@@ -2658,3 +2658,19 @@ section#contact .contact-top {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
+
+
+header nav.navbar .row .col-md-6 #para1 {
+
+    margin-top: 10px;
+    color: white; 
+    font-size: 12px;
+    margin-left: 120px;
+}
+header nav.navbar .row .col-md-6 #para2 {
+
+    margin-top: 10px;
+    color: white; 
+    font-size: 12px;
+    margin-left: 134px;
+}

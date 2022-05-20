@@ -485,29 +485,6 @@ Author URI: gnodesign.com
 
 
 
-
-        /*----------------------------------------------------
-          MAILCHIMP
-        ----------------------------------------------------*/
-        $('.mailchimp').ajaxChimp({
-            callback: mailchimpFunct,
-            url: "your-mailchimp-url-here" //Replace this with your own mailchimp post URL. Paste the url inside "".  
-        });
-
-        function mailchimpFunct(response) {
-            if (response.result === 'success') {
-                $('#subscribe-result').html('<div class="alert alert-success">' + resp.msg + '</div>').fadeIn(500);
-                $("#subscribe-result").delay(5000).fadeOut(1000);
-
-            } else if (response.result === 'error') {
-                $('#subscribe-result').html('<div class="alert alert-danger">' + resp.msg + '</div>').fadeIn(500);
-                $("#subscribe-result").delay(5000).fadeOut(1000);
-            }
-        }
-
-
-
-
         /*----------------------------------------------------
           LOAD MORE BLOG POSTS
         ----------------------------------------------------*/

@@ -127,6 +127,20 @@ Author URI: gnodesign.com
         width: 100%;
         margin-bottom: 40px;
     }
+
+    header nav.navbar .row .col-md-6 #para1 {
+    text-align: center;
+    margin-left: 0px;
+
+    }
+    header nav.navbar .row .col-md-6 #para2 {
+
+    text-align: center;
+    margin-left: 0px;
+
+    }
+   
+
 }
 
 
@@ -146,6 +160,19 @@ Author URI: gnodesign.com
 
         margin-top: 80px;
     }
+    header nav.navbar .row .col-md-6 #para1 {
+
+    text-align: center;
+    margin-left: 0px;
+
+    }
+    header nav.navbar .row .col-md-6 #para2 {
+
+    text-align: center;
+    margin-left: 0px;
+
+    }
+    
     /**************** 
 		TOP HEADER
 	****************/
@@ -238,6 +265,7 @@ Author URI: gnodesign.com
     section#blog-post .post-quote blockquote {
         padding: 90px 0;
     }
+
 }
 
 
@@ -272,7 +300,7 @@ Author URI: gnodesign.com
 		Main Slider Section
 	****************/
     .slider-content {
-        top: 30%;
+        top: 35%;
     }
     .slider-content h3 span {
         font-size: 52px;
@@ -385,6 +413,19 @@ Author URI: gnodesign.com
     #not-found.main {
         height: 100vh;
     }
+     header nav.navbar .row .col-md-6 #para1 {
+
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 0px;
+
+    }
+    header nav.navbar .row .col-md-6 #para2 {
+
+    text-align: center;
+    margin-left: 0px;
+
+    }
 }
 
 
@@ -444,6 +485,19 @@ Author URI: gnodesign.com
     section#not-found img {
         width: 250px;
     }
+    header nav.navbar .row .col-md-6 #para1 {
+
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 0px;
+
+    }
+    header nav.navbar .row .col-md-6 #para2 {
+
+    text-align: center;
+    margin-left: 0px;
+
+    }
 }
 
 
@@ -466,6 +520,19 @@ Author URI: gnodesign.com
 	****************/
     section#not-found .error-detail h2 {
         font-size: 140px;
+    }
+    header nav.navbar .row .col-md-6 #para1 {
+
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 0px;
+
+    }
+    header nav.navbar .row .col-md-6 #para2 {
+
+    text-align: center;
+    margin-left: 0px;
+
     }
 }
 
@@ -539,7 +606,6 @@ Author URI: gnodesign.com
         margin-top: 30px;
         right: 0%;
     }
-
     
 
 }

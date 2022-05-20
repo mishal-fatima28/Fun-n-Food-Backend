@@ -59,8 +59,8 @@ Author URI: gnodesign.com
 
 @media (max-width: 992px) {
     /**************** 
-		Training Courses Section
-	****************/
+        Training Courses Section
+    ****************/
     section#courses {
         padding-bottom: 80px;
     }
@@ -74,21 +74,21 @@ Author URI: gnodesign.com
         display: none;
     }
     /**************** 
-		Blog Section
-	****************/
+        Blog Section
+    ****************/
     .blog-post .blog-desc {
         overflow: hidden;
         padding: 30px;
     }
     /**************** 
-		Testimonial Section
-	****************/
+        Testimonial Section
+    ****************/
     section#testimonials {
         background-size: cover;
     }
     /**************** 
-		Pricing Tables Section
-	****************/
+        Pricing Tables Section
+    ****************/
     section#pricing .pricing-tables .col-md-4 {
         margin-top: 80px;
     }
@@ -96,8 +96,8 @@ Author URI: gnodesign.com
         margin-top: 0;
     }
     /**************** 
-		Signup Section
-	****************/
+        Signup Section
+    ****************/
     section#signup h3 {
         text-align: center;
     }
@@ -105,8 +105,8 @@ Author URI: gnodesign.com
         margin: 0 auto;
     }
     /**************** 
-		Footer
-	****************/
+        Footer
+    ****************/
     footer .footer-social {
         clear: both;
         margin-top: 50px;
@@ -115,8 +115,8 @@ Author URI: gnodesign.com
         margin-top: 50px;
     }
     /**************** 
-		Contact Pages
-	****************/
+        Contact Pages
+    ****************/
     form#contact-form input {
         margin: 20px 0;
     }
@@ -127,6 +127,20 @@ Author URI: gnodesign.com
         width: 100%;
         margin-bottom: 40px;
     }
+
+    header nav.navbar .row .col-md-6 #para1 {
+    text-align: center;
+    margin-left: 0px;
+
+    }
+    header nav.navbar .row .col-md-6 #para2 {
+
+    text-align: center;
+    margin-left: 0px;
+
+    }
+   
+
 }
 
 
@@ -146,9 +160,22 @@ Author URI: gnodesign.com
 
         margin-top: 80px;
     }
+    header nav.navbar .row .col-md-6 #para1 {
+
+    text-align: center;
+    margin-left: 0px;
+
+    }
+    header nav.navbar .row .col-md-6 #para2 {
+
+    text-align: center;
+    margin-left: 0px;
+
+    }
+    
     /**************** 
-		TOP HEADER
-	****************/
+        TOP HEADER
+    ****************/
 }
 
 
@@ -159,8 +186,8 @@ Author URI: gnodesign.com
 
 @media all and (max-width: 769px) {
     /**************** 
-		Main Menu
-	****************/
+        Main Menu
+    ****************/
     .navbar-nav>li>a {
         padding: 15px 0;
     }
@@ -172,32 +199,32 @@ Author URI: gnodesign.com
         padding: 15px 0 15px 30px !important;
     }
     /**************** 
-		Training Courses Section
-	****************/
+        Training Courses Section
+    ****************/
     section#courses .course-main .row:last-child {
         padding: 0;
     }
     /**************** 
-		Count Up Section
-	****************/
+        Count Up Section
+    ****************/
     section#countup .col-xs-12 {
         padding: 30px 0;
     }
     /**************** 
-		Signup Section
-	****************/
+        Signup Section
+    ****************/
     section#signup {
         background: #ffffff;
     }
     /**************** 
-		Latest Events Section
-	****************/
+        Latest Events Section
+    ****************/
     section#events table {
         border: none;
     }
     /**************** 
-		About Page
-	****************/
+        About Page
+    ****************/
     section#about .about-vid .vid-container {
         width: 100%;
     }
@@ -230,14 +257,15 @@ Author URI: gnodesign.com
         right: auto;
     }
     /**************** 
-		Blog Detail Page
-	****************/
+        Blog Detail Page
+    ****************/
     section#blog-post ul.social li {
         margin-bottom: 20px;
     }
     section#blog-post .post-quote blockquote {
         padding: 90px 0;
     }
+
 }
 
 
@@ -248,8 +276,8 @@ Author URI: gnodesign.com
 
 @media all and (max-width: 767px) {
     /**************** 
-		Coming Soon Page
-	****************/
+        Coming Soon Page
+    ****************/
     section#coming-soon .fullscreen {
         position: fixed;
     }
@@ -269,10 +297,10 @@ Author URI: gnodesign.com
 
 @media all and (max-width: 580px) {
     /**************** 
-		Main Slider Section
-	****************/
+        Main Slider Section
+    ****************/
     .slider-content {
-        top: 30%;
+        top: 35%;
     }
     .slider-content h3 span {
         font-size: 52px;
@@ -281,21 +309,21 @@ Author URI: gnodesign.com
         height: 0;
     }
     /**************** 
-		Gallery Section
-	****************/
+        Gallery Section
+    ****************/
     ul.gallery-sorting li {
         margin-bottom: 50px;
     }
     /**************** 
-		Testimonial Section
-	****************/
+        Testimonial Section
+    ****************/
     #sync1 .item .testimonial {
         padding-left: 0;
         padding-top: 70px;
     }
     /**************** 
-		Footer
-	****************/
+        Footer
+    ****************/
     footer .col-xs-6 {
         width: 100%;
         text-align: center;
@@ -318,14 +346,14 @@ Author URI: gnodesign.com
 
 @media all and (max-width: 480px) {
     /**************** 
-		Gallery Section
-	****************/
+        Gallery Section
+    ****************/
     .gallery-items li.col-xs-6.shuffle-item {
         width: 100%;
     }
     /**************** 
-		Blog Section
-	****************/
+        Blog Section
+    ****************/
     article.blog-post {
         padding: 25px;
     }
@@ -339,8 +367,8 @@ Author URI: gnodesign.com
 
 @media all and (max-width: 420px) {
     /**************** 
-		Main Menu
-	****************/
+        Main Menu
+    ****************/
     nav.navbar {
         margin: 40px 0 0 0;
     }
@@ -355,8 +383,8 @@ Author URI: gnodesign.com
     }
     
     /**************** 
-		Main Slider Section
-	****************/
+        Main Slider Section
+    ****************/
     .slider-content h3 span {
         font-size: 42px;
     }
@@ -364,15 +392,15 @@ Author URI: gnodesign.com
         display: none;
     }
     /**************** 
-		Blog Section
-	****************/
+        Blog Section
+    ****************/
     .blog-post .blog-desc {
         overflow: hidden;
         padding: 30px 0;
     }
     /**************** 
-		Blog Detail Page
-	****************/
+        Blog Detail Page
+    ****************/
     form#comment-form .comment-require {
         text-align: center;
     }
@@ -380,10 +408,23 @@ Author URI: gnodesign.com
         float: none !important;
     }
     /**************** 
-		404 Page
-	****************/
+        404 Page
+    ****************/
     #not-found.main {
         height: 100vh;
+    }
+     header nav.navbar .row .col-md-6 #para1 {
+
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 0px;
+
+    }
+    header nav.navbar .row .col-md-6 #para2 {
+
+    text-align: center;
+    margin-left: 0px;
+
     }
 }
 
@@ -395,8 +436,8 @@ Author URI: gnodesign.com
 
 @media all and (max-width: 380px) {
     /**************** 
-		Testimonial Section
-	****************/
+        Testimonial Section
+    ****************/
     #sync2 .item .client-img {
         width: 100%;
     }
@@ -412,8 +453,8 @@ Author URI: gnodesign.com
         text-align: center;
     }
     /**************** 
-		Latest Events Section
-	****************/
+        Latest Events Section
+    ****************/
     section#events .col-md-6 {
         padding: 40px 0 0 0;
     }
@@ -424,8 +465,8 @@ Author URI: gnodesign.com
         font-size: 16px;
     }
     /**************** 
-		About Page
-	****************/
+        About Page
+    ****************/
     ul.timeline:before {
         display: none;
     }
@@ -436,13 +477,26 @@ Author URI: gnodesign.com
         width: 100% !important;
     }
     /**************** 
-		404 Page
-	****************/
+        404 Page
+    ****************/
     section#not-found .error-detail h2 {
         font-size: 160px;
     }
     section#not-found img {
         width: 250px;
+    }
+    header nav.navbar .row .col-md-6 #para1 {
+
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 0px;
+
+    }
+    header nav.navbar .row .col-md-6 #para2 {
+
+    text-align: center;
+    margin-left: 0px;
+
     }
 }
 
@@ -456,16 +510,29 @@ Author URI: gnodesign.com
 
 
     /**************** 
-		Main Slider Section
-	****************/
+        Main Slider Section
+    ****************/
     .slider-content h3 span {
         font-size: 36px;
     }
     /**************** 
-		404 Page
-	****************/
+        404 Page
+    ****************/
     section#not-found .error-detail h2 {
         font-size: 140px;
+    }
+    header nav.navbar .row .col-md-6 #para1 {
+
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 0px;
+
+    }
+    header nav.navbar .row .col-md-6 #para2 {
+
+    text-align: center;
+    margin-left: 0px;
+
     }
 }
 
@@ -477,14 +544,14 @@ Author URI: gnodesign.com
 
 @media screen and (max-height: 420px) {
     /**************** 
-		Main Slider Section
-	****************/
+        Main Slider Section
+    ****************/
     nav.navbar {
         margin: 30px 0 0 0;
     }
     /**************** 
-		404 Page
-	****************/
+        404 Page
+    ****************/
     #not-found.main {
         height: 700px;
     }
@@ -539,7 +606,6 @@ Author URI: gnodesign.com
         margin-top: 30px;
         right: 0%;
     }
-
     
 
 }

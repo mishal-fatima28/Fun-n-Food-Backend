@@ -26,18 +26,21 @@
                  <div class="col-md-3 blog-thumbnail">
                     <a href="#"><img style="height: 350px;" src="{% static 'images/fun n food/env.jpg' %}" class="img-responsive" alt=""></a>
                 </div>
+                 {% if timings %}
+                        {% for time in timings %}
                 <div class="col-md-9 blog-desc">
                     <h4><a href="#">Park Timings</a></h4>
-                    <p>We are open 364 days a year. That’s every day except Diwali with extended fun hours during peak holiday seasons.</p>
-                    <h5><a href="#">Water Park</a></h5>
-                    <p><i class="fa fa-clock-o"></i> 10:00 AM - 3:00 PM</p>
-                    <h5><a href="#">Amusement Park</a></h5>
-                    <p><i class="fa fa-clock-o"></i> 3:00 AM - 6:00 PM</p>
-                    <p>Senior citizen age completed/Above 65years Child Ticket Rs 550/- Including GST.
-                    Original Identity Card for age verification compulsory.</p>
-                    <p>Note : Timings are subject to change without prior notice | Rights of admission reserved | Re-Entry not Allowed.</p>
-                    <a style="margin-top: -5px;" href="{% url 'book-online' %}" class="btn">Book Now</a>
+                    <p style="margin-top: 15px;">We are open 364 days a year. That’s every day except Diwali with extended fun hours during peak holiday seasons.</p>
+                    <h5><a href="#">Monday to Friday</a></h5>
+                    <p style="margin-top: 10px;"><i class="fa fa-clock-o"></i> {{time.monday_to_friday}}</p>
+                    <h5><a href="#">Weekends & Public Holidays</a></h5>
+                    <p style="margin-top: 10px;"><i class="fa fa-clock-o"></i> {{time.weekend_and_holidays}}</p>
+                    <p style="margin-top: 30px;">Note : Timings are subject to change without prior notice | Rights of admission reserved | Re-Entry not Allowed.</p>
+                    <a style="margin-top: 20px;" href="{% url 'book-online' %}" class="btn">Book Now</a>
                 </div>
+                        {% endfor %}
+                {% endif %}
+                   
             </article>
         </div>
     </section>
