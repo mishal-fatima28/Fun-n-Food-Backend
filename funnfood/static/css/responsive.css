@@ -172,6 +172,12 @@ Author URI: gnodesign.com
     margin-left: 0px;
 
     }
+
+    #pages.main .page-title h2 {
+
+        top: 80%;
+        font-size: 30px;
+    }
     
     /**************** 
 		TOP HEADER
@@ -265,6 +271,11 @@ Author URI: gnodesign.com
     section#blog-post .post-quote blockquote {
         padding: 90px 0;
     }
+     #pages.main .page-title h2 {
+
+        top: 80%;
+        font-size: 30px;
+    }
 
 }
 
@@ -286,6 +297,11 @@ Author URI: gnodesign.com
         width: 100%;
         top: 30%;
         transform: translateY(20%);
+    }
+     #pages.main .page-title h2 {
+
+        top: 80%;
+        font-size: 30px;
     }
 }
 
@@ -336,6 +352,11 @@ Author URI: gnodesign.com
     footer .footer-newsletter {
         margin-top: 0;
     }
+     #pages.main .page-title h2 {
+
+        top: 80%;
+        font-size: 30px;
+    }
 }
 
 
@@ -356,6 +377,11 @@ Author URI: gnodesign.com
 	****************/
     article.blog-post {
         padding: 25px;
+    }
+     #pages.main .page-title h2 {
+
+        top: 80%;
+        font-size: 30px;
     }
 }
 
@@ -425,6 +451,11 @@ Author URI: gnodesign.com
     text-align: center;
     margin-left: 0px;
 
+    }
+     #pages.main .page-title h2 {
+
+        top: 80%;
+        font-size: 30px;
     }
 }
 
@@ -498,6 +529,11 @@ Author URI: gnodesign.com
     margin-left: 0px;
 
     }
+     #pages.main .page-title h2 {
+
+        top: 80%;
+        font-size: 30px;
+    }
 }
 
 
@@ -534,6 +570,11 @@ Author URI: gnodesign.com
     margin-left: 0px;
 
     }
+     #pages.main .page-title h2 {
+
+        top: 80%;
+        font-size: 30px;
+    }
 }
 
 
@@ -554,6 +595,11 @@ Author URI: gnodesign.com
 	****************/
     #not-found.main {
         height: 700px;
+    }
+     #pages.main .page-title h2 {
+
+        top: 80%;
+        font-size: 30px;
     }
 }
 
@@ -607,5 +653,10 @@ Author URI: gnodesign.com
         right: 0%;
     }
     
+     #pages.main .page-title h2 {
+
+        top: 80%;
+        font-size: 30px;
+    }
 
 }
