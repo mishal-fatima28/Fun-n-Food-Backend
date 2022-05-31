@@ -32,7 +32,7 @@ def contact_form(request):
         phone = request.POST['phone']
         subject = request.POST['subject']
         message = request.POST['message']
-        to_email = 'mishalfatima28@gmail.com'
+        to_email = 'info@funnfoodparks.com'
 
         data = {
 
@@ -105,7 +105,7 @@ def booking_form(request):
         numOfAdults = request.POST['numOfAdults']
         numOfChildren = request.POST['numOfChildren']
         numOfFemale = request.POST['numOfFemale']
-        to_email = 'mishalfatima28@gmail.com'
+        to_email = 'info@funnfoodparks.com'
 
         data = {
 

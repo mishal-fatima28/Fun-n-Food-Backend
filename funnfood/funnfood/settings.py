@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import os
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATE_DIR=(os.path.join(BASE_DIR,"templates"))
@@ -27,11 +26,14 @@ SECRET_KEY = 'django-insecure-)y8)f!ql!-e-$@5y1@$rs==de$rzcd$o&5p(kbx$ruo4i#a-@*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
+EMAIL_HOST = 'smtpout.secureserver.net'
+EMAIL_PORT = 80
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'mishalfatima28@gmail.com'
-EMAIL_HOST_PASSWORD = 'przyskduzlncyifi'
+EMAIL_USE_SSL = False
+EMAIL_HOST_USER = 'info@funnfoodparks.com'
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+SERVER_EMAIL = EMAIL_HOST_USER
+EMAIL_HOST_PASSWORD = 'funnfoodadmin'
 
 ALLOWED_HOSTS = ['127.0.0.1','fun-n-food.herokuapp.com', 'www.funnfoodparks.com', 'funnfoodparks.com']
 
