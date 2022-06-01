@@ -24,7 +24,7 @@ STATIC_DIR=(os.path.join(BASE_DIR,"static"))
 SECRET_KEY = 'django-insecure-)y8)f!ql!-e-$@5y1@$rs==de$rzcd$o&5p(kbx$ruo4i#a-@*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
