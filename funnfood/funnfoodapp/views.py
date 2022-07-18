@@ -86,68 +86,6 @@ def coming_soon(request):
     
     return render(request, 'coming-soon.html')
 
-def book_online(request):
-
-    timings = Timing.objects.all()
-    
-    return render(request, 'book-online.html', {'timings': timings})
-
-def booking_form(request):
-
-    if request.method == 'POST':
-       
-        name = request.POST['name']
-        email = request.POST['email']
-        phone = request.POST['phone']
-        subject = 'Booking Request'
-        address = request.POST['address']
-        date = request.POST['date']
-        numOfAdults = request.POST['numOfAdults']
-        numOfChildren = request.POST['numOfChildren']
-        numOfFemale = request.POST['numOfFemale']
-        to_email = 'info@funnfoodparks.com'
-
-        data = {
-
-            'name' : name,
-            'email' : email,
-            'phone' : phone,
-            'subject' : subject,
-            'address' : address,
-            'date' : date,
-            'numOfAdults' : numOfAdults,
-            'numOfChildren' : numOfChildren,
-            'numOfFemale' : numOfFemale,
-
-        }
-
-        message = '''
-
-        Name: {}
-
-        Email: {}
-
-        Phone: {}
-
-        Address: {}
-
-        Booking Date: {}
-
-        Number of Adults: {}
-
-        Number of Children: {}
-
-        Number of Female: {}
-
-
-
-        '''.format(data['name'], data['email'], data['phone'], data['address'], data['date'], data['numOfAdults'], data['numOfChildren'], data['numOfFemale'])
-
-        print('message')
-        
-        send_mail(data['subject'], message, '', [to_email] )
-        return render(request, 'thanks.html')
-
 def gallery(request):
 
     timings = Timing.objects.all()
