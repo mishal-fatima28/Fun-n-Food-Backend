@@ -65,7 +65,7 @@
                         <p id="para1"><i class="fa fa-map-marker"></i> New Delhi, <i  style="margin-left: 20px;" class="fa fa-phone"></i> +91 9289626310, 011-43260000 </p>
                     </div>
                     <div class="col-md-6">
-                        <p id="para2"><i class="fa fa-clock-o"></i> Monday to Friday - {{time.monday_to_friday}}, Weekends - {{time.weekend_and_holidays}}  </p>
+                        <p id="para2"><i class="fa fa-clock-o"></i> Weekdays - {{time.monday_to_friday}}, Weekends - {{time.weekend_and_holidays}}  </p>
                     </div>
                     {% endfor %}
                 {% endif %}
@@ -200,7 +200,7 @@
                     <h4>Opening hours</h4>
                     <p>We are open seven days. Including public holidays</p>
                     <ul>
-                        <li><span><i class="fa fa-clock-o"></i>Mon to Friday - {{time.monday_to_friday}}</span></li>
+                        <li><span><i class="fa fa-clock-o"></i> Weekdays - {{time.monday_to_friday}}</span></li>
                         <li><span><i class="fa fa-clock-o"></i>Sat, Sun & Public Holidays - {{time.weekend_and_holidays}}</span></li>                    </ul>
                 </div>
                         {% endfor %}
